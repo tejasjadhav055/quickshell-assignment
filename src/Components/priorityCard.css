@@ -1,0 +1,51 @@
+.priorityCard {
+  /* height: 4rem; */
+  width: 13rem;
+  background-color: #ffffff;
+  padding: 0.25rem;
+  border-radius: 0.3rem;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+}
+.priorityCard-h-p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.25rem;
+}
+.priorityCard-h-p > h6 {
+  color: rgb(89, 89, 90);
+}
+.priorityCard-c-t {
+  display: flex;
+  align-items: center;
+  margin: 0.25rem;
+}
+.priorityCard-c-t-icon {
+  font-size: 0.7rem;
+}
+.priorityCard-c-t > p {
+  font-size: 0.7rem;
+  margin-left: 0.2rem;
+}
+.priorityCard-p-d-t {
+  display: flex;
+  align-items: center;
+  margin: 0.25rem;
+  color: rgb(131, 133, 134);
+}
+.priorityCard-p-d-t-icon {
+  font-size: 0.7rem;
+  border: 1px solid rgb(219, 217, 217);
+  padding: 0.05rem;
+  border-radius: 0.1rem;
+}
+.priorityCard-d-t {
+  margin-left: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  border: 1px solid rgb(219, 217, 217);
+  padding: 0.05rem;
+  border-radius: 0.1rem;
+}

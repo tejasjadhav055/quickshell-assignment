@@ -1,0 +1,41 @@
+.lardeCard {
+  margin-right: 1rem;
+}
+.lardeCard_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 13rem;
+  margin: 1rem 0rem 1rem 0rem;
+}
+.lardeCard_heading-s-t-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lardeCard_heading-s-t-c-icon {
+  font-size: 1rem;
+}
+.lardeCard_heading-s-t-c > h6 {
+  font-size: 0.8rem;
+  margin: 0rem 0.25rem 0rem 0.25rem;
+}
+.lardeCard_heading-s-t-c > p {
+  font-size: 0.8rem;
+  margin: 0rem 0.25rem 0rem 0.25rem;
+}
+.lardeCard_heading-a-d {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lardeCard_heading-a-d {
+  font-size: 1rem;
+}
+.lardeCard_heading-a-d > p {
+  margin: 0rem 0.25rem 0rem 0.25rem;
+}
+.lardeCard_heading-a-d-icon {
+  font-size: 1rem;
+  margin: 0rem 0.25rem 0rem 0.25rem;
+}

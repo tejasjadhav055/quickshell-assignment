@@ -1,0 +1,5 @@
+.status {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 1.5rem; */
+}

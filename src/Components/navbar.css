@@ -1,0 +1,97 @@
+.navbar {
+  height: 3rem;
+  width: 100%;
+  position: sticky;
+  top: 0rem;
+  /* left: 0rem;
+  right: 0rem; */
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: inline-block; */
+  border: 2px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  margin-left: 1.5rem;
+  height: 1rem;
+}
+.navbar_container:hover {
+  cursor: pointer;
+}
+.navbar_container > HiOutlineAdjustmentsHorizontal {
+  font-size: 0.6rem;
+  padding: 0.1rem;
+  margin: 0.1rem;
+}
+.navbar_container > p {
+  font-size: 0.6rem;
+  padding: 0.1rem;
+  margin: 0.1rem;
+}
+.navbar_container > HiOutlineAdjustmentsHorizontal {
+  font-size: 0.6rem;
+  padding: 0.1rem;
+  margin: 0.1rem;
+}
+.navbar_dd {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+  background-color: #f8f8fa;
+  width: 10rem;
+  position: absolute;
+  top: 2.6rem;
+  border: 1.5px solid rgb(219, 217, 217);
+  border-radius: 5px;
+}
+.navbar_dd-n {
+  display: none;
+}
+.navbar_dd-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3, 3, 3, 1.5rem;
+}
+.navbar_dd-1 > p {
+  font-size: 0.6rem;
+  color: #8a8a8c;
+  padding: 0.5rem;
+}
+.navbar_dd-1 > select {
+  font-size: 0.6rem;
+  margin: 0.5rem;
+  border: 1.5px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  padding: 0.1rem;
+}
+.navbar_dd-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5, 3, 3, 3rem;
+}
+.navbar_dd-2 > p {
+  font-size: 0.6rem;
+  color: #8a8a8c;
+  padding: 0.5rem;
+}
+.navbar_dd-2 > select {
+  font-size: 0.6rem;
+  margin: 0.5rem;
+  border: 1.5px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  padding: 0.1rem;
+}
+select:hover {
+  cursor: pointer;
+}
+.navbar_home {
+  width: 100%;
+}
